@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64930228001",
+    "project_id": "e-summit-2024",
+    "storage_bucket": "e-summit-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64930228001:android:4fb6bfed73f33599638060",
+        "android_client_info": {
+          "package_name": "com.event.e_summit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj3MCpZ8mw7kZUu0J1sGuOCdsMekTXGvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

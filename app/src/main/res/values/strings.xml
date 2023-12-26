@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">E SUMMIT</string>
+    <string name="location">Location</string>
+    <string name="birla_insti">Birla Institute of Technology, Mesra</string>
+
+    <string name="events_spea">EVENTS/SPEAKERS</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="text">SIGN IN</string>
+    <string name="sign_in">SIGN IN</string>
+
+</resources>
