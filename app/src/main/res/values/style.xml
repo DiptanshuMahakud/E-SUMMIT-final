@@ -2,11 +2,11 @@
 <resources>
 
     <style name="location">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
     <style name="birla_insti">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">#FFFBFB</item>
     </style>
     <style name="events_spea">
@@ -21,6 +21,11 @@
     </style>
     <style name="text">
         <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="entrepreneu">
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
 

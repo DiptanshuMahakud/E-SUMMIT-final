@@ -8,4 +8,11 @@
     <string name="text">SIGN IN</string>
     <string name="sign_in">SIGN IN</string>
 
+    <string name="entrepreneu">
+        <![CDATA[
+        "Entrepreneurship is neither a science nor an art.
+    It is a practice."  \n\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  -Peter Drucker
+        ]]>
+    </string>
+
 </resources>

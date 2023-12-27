@@ -52,9 +52,8 @@
         android:id="@+id/imageView5"
         android:layout_width="343dp"
         android:layout_height="176dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
         app:srcCompat="@drawable/logo" />
@@ -63,8 +62,8 @@
         android:id="@+id/location"
         android:layout_width="265dp"
         android:layout_height="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="128dp"
         android:gravity="top"
         android:lineSpacingExtra="0sp"
         android:text="@string/location"
@@ -74,9 +73,9 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="26dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="24dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="152dp"
         android:src="@drawable/map"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,7 +85,7 @@
         android:id="@+id/birla_insti"
         android:layout_width="242dp"
         android:layout_height="20dp"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="55dp"
         android:layout_marginTop="152dp"
         android:gravity="top"
         android:lineSpacingExtra="-1sp"
@@ -101,7 +100,7 @@
         android:layout_height="74dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="172dp"
         android:gravity="center_horizontal|top"
         android:text="@string/events_spea"
         android:textAppearance="@style/events_spea"
@@ -109,10 +108,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <HorizontalScrollView
-        android:layout_width="390dp"
+        android:layout_width="391dp"
         android:layout_height="355dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="110dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/events_spea">
 
@@ -194,70 +193,44 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout"
-                android:layout_width="250dp"
-                android:layout_height="124dp"
+                android:layout_width="229dp"
+                android:layout_height="117dp"
+                android:layout_marginStart="12dp"
                 android:layout_marginTop="1dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/event_1" >
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="52dp"
-                    android:layout_marginTop="28dp"
-                    android:text="Business Plan"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    android:fontFamily="sans-serif-condensed-medium"
+                <Button
+                    android:id="@+id/b_plan_info"
+                    android:layout_width="151dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="52dp"
+                    android:text="Know More"
+                    android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout2"
-                android:layout_width="250dp"
-                android:layout_height="142dp"
-                android:layout_marginStart="12dp"
+                android:layout_width="229dp"
+                android:layout_height="117dp"
+                android:layout_marginStart="36dp"
                 android:layout_marginTop="1dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout"
-                app:layout_constraintTop_toBottomOf="@+id/imageView7">
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginTop="32dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Ancient Entropreneur"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout3"
                 android:layout_width="248dp"
                 android:layout_height="119dp"
-                android:layout_marginStart="32dp"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
-                app:layout_constraintTop_toBottomOf="@+id/imageView8">
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="56dp"
-                    android:layout_marginTop="44dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Reverse Pitching"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout4"
@@ -265,43 +238,19 @@
                 android:layout_height="142dp"
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="1dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
-                app:layout_constraintTop_toBottomOf="@+id/imageView9">
-
-                <TextView
-                    android:id="@+id/textView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="68dp"
-                    android:layout_marginTop="48dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Stock Stoicism"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout5"
                 android:layout_width="256dp"
                 android:layout_height="139dp"
                 android:layout_marginStart="24dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout4"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10">
 
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="96dp"
-                    android:layout_marginTop="48dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="IPL Auction"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -310,21 +259,10 @@
                 android:layout_height="142dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="5dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
                 app:layout_constraintTop_toBottomOf="@+id/imageView11">
 
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="104dp"
-                    android:layout_marginTop="44dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="BGMI"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -333,21 +271,10 @@
                 android:layout_height="142dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="1dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout6"
                 app:layout_constraintTop_toBottomOf="@+id/imageView12">
 
-                <TextView
-                    android:id="@+id/textView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="80dp"
-                    android:layout_marginTop="44dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Quiz_Trivia"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -355,24 +282,25 @@
                 android:layout_height="124dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="1dp"
+                android:background="@drawable/background_1"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout7"
-                app:layout_constraintTop_toBottomOf="@+id/imageView13">
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="104dp"
-                    android:layout_marginTop="28dp"
-                    android:fontFamily="sans-serif-condensed-medium"
-                    android:text="Bit-Thon"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/entrepreneu"
+        android:layout_width="374dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/entrepreneu"
+        android:textAppearance="@style/entrepreneu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birla_insti" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

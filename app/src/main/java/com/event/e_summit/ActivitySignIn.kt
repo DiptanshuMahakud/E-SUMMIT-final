@@ -3,6 +3,7 @@ package com.event.e_summit
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.TextView
 import android.widget.Toast
 import com.event.e_summit.databinding.ActivitySignInBinding
@@ -56,7 +57,7 @@ class ActivitySignIn : AppCompatActivity() {
 
     }
 
-    /**override fun onStart() {
+    override fun onStart() {
         super.onStart()
         val user = auth.currentUser
 
@@ -66,5 +67,6 @@ class ActivitySignIn : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-    }**/
+    }
+
 }
